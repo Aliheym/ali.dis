@@ -1,0 +1,104 @@
+.root {
+  position: sticky;
+  top: 0;
+
+  display: flex;
+  align-items: center;
+
+  padding: 2rem 2rem;
+
+  box-shadow: var(--shadow-medium);
+}
+
+.logo {
+  font-size: 3.5rem;
+  font-family: var(--secondary-font);
+  letter-spacing: 0.1rem;
+
+  color: var(--main-color);
+
+  user-select: none;
+}
+
+.searchInputPosition {
+  min-width: 40rem;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.searchInput {
+  width: 100%;
+  padding: 1rem 2rem;
+
+  font: inherit;
+
+  background-color: inherit;
+  border: none;
+  border-radius: var(--br-small);
+  outline: none;
+}
+
+.searchInput::placeholder {
+  font: inherit;
+  font-weight: 500;
+
+  color: var(--grey-800-color);
+}
+
+.searchInputIcon {
+  margin-left: 2rem;
+
+  color: var(--grey-800-color);
+
+  transition: 0.3s fill ease-in;
+}
+
+.searchInputWrapper {
+  display: flex;
+  align-items: center;
+
+  background-color: var(--grey-400-color);
+  border: 3px solid transparent;
+
+  transition: 0.3s border-color, 0.8s background-color;
+}
+
+.searchInputWrapper:hover {
+  background-color: var(--grey-300-color);
+}
+
+.searchInputWrapper:focus-within {
+  border: 3px solid var(--secondary-color);
+  background-color: var(--grey-400-color);
+}
+
+.searchInputWrapper:focus-within .searchInputIcon {
+  color: var(--dark-color);
+}
+
+.avatar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+
+  width: 5rem;
+  height: 5rem;
+
+  /* TODO: do colors customizable */
+  background-color: orange;
+  color: white;
+
+  border-radius: 50%;
+  box-shadow: var(--shadow-small);
+
+  cursor: pointer;
+}
+
+.avatar img {
+  width: 100%;
+  height: 100%;
+
+  object-fit: cover;
+}

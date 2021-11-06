@@ -1,0 +1,48 @@
+.root {
+  width: 8rem;
+  height: 100%;
+
+  box-shadow: var(--shadow-y-medium);
+}
+
+.menuList {
+  margin: 0;
+  padding: 0;
+
+  list-style-type: none;
+}
+
+.menuListItem {
+  position: relative;
+
+  padding: 1rem 2rem;
+  text-align: center;
+
+  transition: 0.3s background-color ease-out;
+  cursor: pointer;
+}
+
+.menuListItemActive {
+  color: var(--secondary-color);
+}
+
+.menuListItemActive::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -2px;
+
+  width: 6px;
+  height: 100%;
+
+  border-radius: 2px;
+  background-color: var(--secondary-color);
+}
+
+.menuListItem:not(.menuListItemActive):hover {
+  background-color: var(--grey-300-color);
+}
+
+.menuListItem:hover svg {
+  color: var(--secondary-color);
+}
