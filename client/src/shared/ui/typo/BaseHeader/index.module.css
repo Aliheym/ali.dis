@@ -1,0 +1,40 @@
+.root {
+  display: block;
+  margin: 0;
+  padding: 0;
+
+  font-size: var(--main-font-size);
+  font-weight: 500;
+}
+
+.rootSizeHuge {
+  font-size: var(--h1-font-size);
+}
+
+.rootSizeBig {
+  font-size: var(--h3-font-size);
+}
+
+.rootSizeNormal {
+  font-size: var(--main-font-size);
+}
+
+.rootSizeSmall {
+  font-size: var(--secondary-font-size);
+}
+
+.rootSizeTiny {
+  font-size: var(--small-font-size);
+}
+
+.rootWeightBold {
+  font-weight: 700;
+}
+
+.rootWeightNormal {
+  font-weight: 500;
+}
+
+.rootWeightThick {
+  font-weight: 300;
+}

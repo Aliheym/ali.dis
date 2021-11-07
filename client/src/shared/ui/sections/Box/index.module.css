@@ -1,0 +1,5 @@
+.root {
+  display: block;
+
+  padding: var(--y-spacing) var(--x-spacing);
+}

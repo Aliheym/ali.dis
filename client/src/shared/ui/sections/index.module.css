@@ -1,0 +1,11 @@
+.root {
+  box-shadow: var(--shadow-medium);
+}
+
+.sectionInner {
+  padding: 2rem;
+}
+
+.sectionRounded {
+  border: var(--br-small);
+}

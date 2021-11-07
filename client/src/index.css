@@ -8,8 +8,6 @@ html {
   box-sizing: border-box;
   scroll-behavior: smooth;
 
-  min-height: 100000px;
-
   font-size: 62.5%;
   --main-font: 'Open Sans', Arial, Helvetica, sans-serif;
   --secondary-font: Montserrat, Arial, Helvetica, sans-serif;
@@ -28,6 +26,24 @@ html {
   --shadow-y-medium: 0 0.5rem 1rem rgb(0 0 0 / 4%);
 
   --br-small: 0.3rem;
+
+  --big-font-size: 2.5rem;
+  --main-font-size: 1.8rem;
+  --secondary-font-size: 1.5rem;
+  --small-font-size: 1rem;
+
+  --h1-font-size: 6rem;
+  --h2-font-size: 3.75rem;
+  --h3-font-size: 3rem;
+  --h4-font-size: 2.125rem;
+  --h5-font-size: var(--big-font-size);
+  --h6-font-size: 1.25rem;
+
+  --button-font-size: var(--secondary-font-size);
+  --caption-font-size: var(--small-font-size);
+
+  --x-spacing: 2rem;
+  --y-spacing: 2rem;
 }
 
 body {

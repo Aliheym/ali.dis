@@ -1,14 +1,14 @@
 import clsx from 'clsx';
 
-import styles from './Menu.module.css';
+import styles from './index.module.css';
 
-import { ReactComponent as PlusIcon } from './plus.icon.svg';
-import { ReactComponent as HomeIcon } from './home.icon.svg';
-import { ReactComponent as ForumIcon } from './forum.icon.svg';
-import { ReactComponent as DirectIcon } from './direct.icon.svg';
-import { ReactComponent as StarIcon } from './star.icon.svg';
-import { ReactComponent as CommunityIcon } from './community.icon.svg';
-import { ReactComponent as QuestionIcon } from './question.icon.svg';
+import { ReactComponent as PlusIcon } from './icons/plus.icon.svg';
+import { ReactComponent as HomeIcon } from './icons/home.icon.svg';
+import { ReactComponent as ForumIcon } from './icons/forum.icon.svg';
+import { ReactComponent as DirectIcon } from './icons/direct.icon.svg';
+import { ReactComponent as StarIcon } from './icons/star.icon.svg';
+import { ReactComponent as CommunityIcon } from './icons/community.icon.svg';
+import { ReactComponent as QuestionIcon } from './icons/question.icon.svg';
 
 export const Menu = () => {
   return (

@@ -1,5 +1,6 @@
-import styles from './Header.module.css';
-import { ReactComponent as SearchIcon } from './search.icon.svg';
+import { ReactComponent as SearchIcon } from './icons/search.icon.svg';
+
+import styles from './index.module.css';
 
 export const Header = () => {
   return (
