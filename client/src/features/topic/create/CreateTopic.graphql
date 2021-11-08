@@ -1,0 +1,7 @@
+mutation CreateTopic($name: String!, $description: String!) {
+  createTopic(name: $name, description: $description) {
+    id
+    name
+    description
+  }
+}

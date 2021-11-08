@@ -1,0 +1,11 @@
+.root {
+  display: block;
+
+  margin: 0;
+  margin-bottom: 2rem;
+  padding: 0;
+}
+
+.rootLast {
+  margin-bottom: 0;
+}

@@ -1,3 +1,5 @@
+import { CreateTopic } from 'features/topic/create';
+
 export const CreateTopicPage = () => {
-  return <div>123</div>;
+  return <CreateTopic />;
 };

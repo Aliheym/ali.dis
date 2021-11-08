@@ -1,0 +1,33 @@
+.root {
+  display: block;
+  min-width: 15rem;
+  padding: 1rem 3rem;
+
+  font: inherit;
+  text-align: center;
+  text-decoration: none;
+  color: var(--main-color);
+
+  background-color: #fff;
+  border: 3px solid transparent;
+  outline: none;
+  border-radius: var(--br-medium);
+  box-shadow: var(--shadow-dark);
+
+  cursor: pointer;
+
+  transition: box-shadow 0.5s;
+}
+
+.root:hover {
+  box-shadow: var(--shadow-dark-hover);
+}
+
+.root:active {
+  box-shadow: var(--shadow-dark-active);
+}
+
+.root:focus {
+  border: 3px solid var(--main-color);
+  box-shadow: none;
+}

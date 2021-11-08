@@ -23,9 +23,14 @@ html {
   --shadow-small: 0 0 0.8rem rgb(0 0 0 / 30%);
   --shadow-medium: 0 0.5rem 1rem rgb(0 0 0 / 4%);
 
+  --shadow-dark: 0 0.5rem 1rem rgb(0 0 0 / 12%);
+  --shadow-dark-hover: 0 0.5rem 1rem rgb(0 0 0 / 5%);
+  --shadow-dark-active: 0 1rem 3rem rgb(0 0 0 / 10%);
+
   --shadow-y-medium: 0 0.5rem 1rem rgb(0 0 0 / 4%);
 
   --br-small: 0.3rem;
+  --br-medium: 0.5rem;
 
   --big-font-size: 2.5rem;
   --main-font-size: 1.8rem;
